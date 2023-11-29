@@ -1,15 +1,17 @@
 import React from 'react';
 import defaultImage from '../../images/default-car.jpg';
+import { Card } from './Car.style.js';
 
 const Car = ({ imageUrl }) => {
   return (
-    <li>
+    <Card>
       <ing
-        src={imageUrl}
+        src={defaultImage}
+        // src={imageUrl}
         alt="Car"
-        onError={e => {
-          e.target.src = defaultImage; // Використання локального зображення як дефолтного
-        }}
+        // onError={e => {
+        //   e.target.src = defaultImage;
+        // }}
       />
       <div>
         <div>
@@ -22,7 +24,7 @@ const Car = ({ imageUrl }) => {
         </div>
         <button>Learn more</button>
       </div>
-    </li>
+    </Card>
   );
 };
 
