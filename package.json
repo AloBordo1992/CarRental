@@ -1,8 +1,8 @@
 {
-  "name": "testtreats",
+  "name": "CarRental",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AloBordo1992.github.io/TestTreats/",
+  "homepage": "https://AloBordo1992.github.io/CarRental/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
