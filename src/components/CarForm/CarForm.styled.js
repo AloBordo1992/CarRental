@@ -6,7 +6,7 @@ export const Forma = styled.form`
   height: 74px;
   align-items: flex-end;
   gap: 18px;
-  flex-shrink: 0;
+  margin-bottom: 50px;
 `;
 
 export const Label = styled.label`

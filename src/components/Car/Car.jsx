@@ -5,13 +5,12 @@ import { Card } from './Car.style.js';
 const Car = ({ imageUrl }) => {
   return (
     <Card>
-      <ing
-        src={defaultImage}
-        // src={imageUrl}
+      <img
+        src={imageUrl}
         alt="Car"
-        // onError={e => {
-        //   e.target.src = defaultImage;
-        // }}
+        onError={e => {
+          e.target.src = defaultImage;
+        }}
       />
       <div>
         <div>

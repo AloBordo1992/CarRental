@@ -79,12 +79,12 @@ const CarForm = () => {
         <Label htmlFor="carBrand">Car Brand</Label>
         <SelectBrand
           id="carBrand"
-          value={carBrand}
+          value="Enter the text"
           onChange={handleCarBrandChange}
         >
-          <option value="" disabled selected hidden>
+          {/* <option value="" disabled selected hidden>
             Enter the text
-          </option>
+          </option> */}
           {optionsBrandArray.map((option, index) => (
             <option key={index} value={option}>
               {option}
@@ -100,9 +100,9 @@ const CarForm = () => {
           value={price}
           onChange={handlePriceChange}
         >
-          <option value="" disabled selected hidden>
+          {/* <option value="" disabled selected hidden>
             To $
-          </option>
+          </option> */}
           {optionsPrise}
         </SelectPrise>
       </div>
