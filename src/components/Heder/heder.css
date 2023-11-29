@@ -1,0 +1,51 @@
+header {
+  display: block;
+}
+.nav-header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding-top: 42px;
+}
+.nav-list {
+  align-items: center;
+  gap: 16px;
+  display: flex;
+
+  font-size: 12px;
+  font-family: Inter;
+  font-weight: 500;
+}
+.active {
+  color: #9bb537;
+}
+.header-btn-box {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.shopping-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  .svg {
+    &:hover {
+      fill: black;
+    }
+  }
+}
+.shupping-link:hover {
+  color: black;
+}
+.SvgShopping:hover {
+  fill: black;
+}
+
+.change-theme {
+  width: 46px;
+  height: 20px;
+}

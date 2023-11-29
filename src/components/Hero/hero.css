@@ -1,0 +1,26 @@
+.hero-wrapper {
+  width: 446px;
+  padding-top: 137px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+.hero-title {
+  color: #050505;
+  font-size: 36px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.hero-title span {
+  color: #9bb537;
+  font-style: italic;
+  font-weight: 400;
+}
+.description {
+  margin-bottom: 32px;
+}
+.btn-hero:hover {
+  color: antiquewhite;
+}
