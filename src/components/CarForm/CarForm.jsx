@@ -33,7 +33,7 @@ const CarForm = () => {
   };
 
   const handleSearch = () => {
-    // Додайте код для обробки пошуку
+    // Додати код для обробки пошуку
     console.log('Searching...');
     console.log('Car Brand:', carBrand);
     console.log('Price:', price);

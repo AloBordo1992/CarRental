@@ -53,25 +53,35 @@ export const Mileage = styled.div`
 
 export const MileageL = styled.input`
   display: flex;
-  width: 125px;
   align-items: center;
   flex-shrink: 0;
+  width: 95px;
+  padding: 14px 41px 14px 24px;
   border-radius: 14px 0px 0px 14px;
   border-right: 1px solid rgba(138, 138, 137, 0.2);
   background-color: rgba(138, 138, 137, 0.2);
   border-left: none;
   border-top: none;
   border-bottom: none;
+  color: rgba(18, 20, 23, 1);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
 `;
 
 export const MileageR = styled.input`
   display: flex;
-  width: 125px;
   align-items: center;
   flex-shrink: 0;
+  width: 73px;
+  padding: 14px 63px 14px 24px;
   border-radius: 0px 14px 14px 0px;
   background-color: rgba(138, 138, 137, 0.2);
   border: none;
+  color: rgba(18, 20, 23, 1);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
 `;
 
 export const ButtonForm = styled.button`

@@ -1,6 +1,7 @@
 import React from 'react';
-import CarForm from '..//..//components/CarForm/CarForm';
-import { Conteainer } from '..//..//style/container.style';
+import CarForm from '../../components/CarForm/CarForm';
+import CarsList from '../../components/CarsList/CarsList';
+import { Conteainer } from '../../style/container.style';
 import { CatalogContainer } from './Catalog.style';
 
 const Catalog = () => {
@@ -8,6 +9,7 @@ const Catalog = () => {
     <Conteainer>
       <CatalogContainer>
         <CarForm />
+        <CarsList />
       </CatalogContainer>
     </Conteainer>
   );
