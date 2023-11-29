@@ -1,7 +1,7 @@
 @import-normalize; /* bring in normalize.css styles */
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: ' Manrope', sans-serif;
   background-color: #f8f8f8;
 
   /* transition: 2000ms cubic-bezier(0.4, 0, 0.2, 1); */

@@ -105,25 +105,19 @@ const CarForm = () => {
           </option>
           {optionsPrise}
         </SelectPrise>
-        {/* <InputPrise
-          type="text"
-          id="price"
-          value={price}
-          onChange={handlePriceChange}
-        /> */}
       </div>
       <div>
         <Label htmlFor="mileageFrom">Car Mileage / km</Label>
         <Mileage>
           <MileageL
-            type="number"
+            type="text"
             id="mileageFrom"
             value={mileageFrom}
             placeholder="From"
             onChange={handleMileageFromChange}
           />
           <MileageR
-            type="number"
+            type="text"
             id="mileageTo"
             value={mileageTo}
             placeholder="To"

@@ -11,9 +11,7 @@ export const Forma = styled.form`
 
 export const Label = styled.label`
   color: #8a8a89;
-  font-family: Manrope;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: 18px;
 `;
@@ -25,7 +23,14 @@ export const SelectBrand = styled.select`
   align-items: center;
   gap: 32px;
   border-radius: 14px;
-  background-color: #f7f7fb;
+  background-color: rgba(138, 138, 137, 0.2);
+  border: none;
+  option {
+    color: #121417;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+  }
 `;
 
 export const SelectPrise = styled.select`
@@ -35,7 +40,8 @@ export const SelectPrise = styled.select`
   align-items: flex-start;
   gap: 32px;
   border-radius: 14px;
-  background-color: #f7f7fb;
+  background-color: rgba(138, 138, 137, 0.2);
+  border: none;
 `;
 
 export const Mileage = styled.div`
@@ -52,7 +58,10 @@ export const MileageL = styled.input`
   flex-shrink: 0;
   border-radius: 14px 0px 0px 14px;
   border-right: 1px solid rgba(138, 138, 137, 0.2);
-  background-color: #f7f7fb;
+  background-color: rgba(138, 138, 137, 0.2);
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
 `;
 
 export const MileageR = styled.input`
@@ -60,9 +69,9 @@ export const MileageR = styled.input`
   width: 125px;
   align-items: center;
   flex-shrink: 0;
-  border: none;
   border-radius: 0px 14px 14px 0px;
-  background: rgba(247, 247, 251, 1);
+  background-color: rgba(138, 138, 137, 0.2);
+  border: none;
 `;
 
 export const ButtonForm = styled.button`
