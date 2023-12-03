@@ -34,7 +34,7 @@ export const Title = styled.h3`
 export const TitleBox = styled.div`
   display: flex;
   align-items: flex-start;
-  gap: 87px;
+  justify-content: space-between;
 `;
 export const InfoBox = styled.div`
   color: rgba(18, 20, 23, 0.5);
