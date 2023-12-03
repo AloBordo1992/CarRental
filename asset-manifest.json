@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SoniCar/static/css/main.11989a09.css",
-    "main.js": "/SoniCar/static/js/main.ae6e705b.js",
+    "main.js": "/SoniCar/static/js/main.47ca5abb.js",
     "static/media/default-car.jpg": "/SoniCar/static/media/default-car.2efcc86b59caeb511883.jpg",
     "index.html": "/SoniCar/index.html",
     "main.11989a09.css.map": "/SoniCar/static/css/main.11989a09.css.map",
-    "main.ae6e705b.js.map": "/SoniCar/static/js/main.ae6e705b.js.map"
+    "main.47ca5abb.js.map": "/SoniCar/static/js/main.47ca5abb.js.map"
   },
   "entrypoints": [
     "static/css/main.11989a09.css",
-    "static/js/main.ae6e705b.js"
+    "static/js/main.47ca5abb.js"
   ]
 }
