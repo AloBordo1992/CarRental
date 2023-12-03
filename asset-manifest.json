@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/CarRental/static/css/main.11989a09.css",
-    "main.js": "/CarRental/static/js/main.cbb7ec5c.js",
-    "static/media/default-car.jpg": "/CarRental/static/media/default-car.2efcc86b59caeb511883.jpg",
-    "index.html": "/CarRental/index.html",
-    "main.11989a09.css.map": "/CarRental/static/css/main.11989a09.css.map",
-    "main.cbb7ec5c.js.map": "/CarRental/static/js/main.cbb7ec5c.js.map"
+    "main.css": "/SoniCar/static/css/main.11989a09.css",
+    "main.js": "/SoniCar/static/js/main.ae6e705b.js",
+    "static/media/default-car.jpg": "/SoniCar/static/media/default-car.2efcc86b59caeb511883.jpg",
+    "index.html": "/SoniCar/index.html",
+    "main.11989a09.css.map": "/SoniCar/static/css/main.11989a09.css.map",
+    "main.ae6e705b.js.map": "/SoniCar/static/js/main.ae6e705b.js.map"
   },
   "entrypoints": [
     "static/css/main.11989a09.css",
-    "static/js/main.cbb7ec5c.js"
+    "static/js/main.ae6e705b.js"
   ]
 }
