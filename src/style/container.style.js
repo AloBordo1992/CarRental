@@ -7,9 +7,4 @@ export const Conteainer = styled.div`
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
 `;

@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './../Pages/Home/Home';
 import Favorites from './../Pages/Favorites/Favorites';
-import Layout from '././/Layouts/Layout';
+import Layout from './Layouts/Layout';
 import Catalog from './../Pages/Catalog/Catalog';
 
 export const App = () => {
