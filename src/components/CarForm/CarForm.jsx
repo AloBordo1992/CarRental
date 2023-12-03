@@ -82,9 +82,6 @@ const CarForm = () => {
           value="Enter the text"
           onChange={handleCarBrandChange}
         >
-          {/* <option value="" disabled selected hidden>
-            Enter the text
-          </option> */}
           {optionsBrandArray.map((option, index) => (
             <option key={index} value={option}>
               {option}
@@ -100,9 +97,6 @@ const CarForm = () => {
           value={price}
           onChange={handlePriceChange}
         >
-          {/* <option value="" disabled selected hidden>
-            To $
-          </option> */}
           {optionsPrise}
         </SelectPrise>
       </div>
